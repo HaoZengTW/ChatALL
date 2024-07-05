@@ -130,7 +130,6 @@
     "claude-3-opus-20240229" : "claude-3-opus",
     "claude-3-sonnet-20240229": "claude-3-sonnet",
     "claude-3-haiku-20240307": "claude-3-haiku",
-    "claude-3-5-sonnet-20240620": "claude-3.5-sonnet",
     "claude-21":"claude-2.1",
     "claude-20":"claude-2.0",
     "claude-instant-12":"claude-instant"
@@ -141,7 +140,6 @@
     "command-light": "Command Light",
     "command-r": "Command R",
     "command-r-plus": "Command R+",
-    "c4ai-aya-23": "Aya 23",
     "temperature": "Temperature",
     "temperaturePrompt": "調整模型的輸出隨機性設定範圍為 0 至 5。較低的設定值能夠確保輸出結果的精確性和一致性，非常適合用於需要精準資訊的任務，如撰寫摘要。相反，較高的設定值則有助於激發創造性思維，但可能使內容在特定情境或簡短回應中顯得不夠連貫。"
   },
@@ -301,8 +299,15 @@
   "dev": {
     "name": "開發專用 Bot"
   },
+  "BaseRag": {
+    "name": "BaseRag_invoke"
+  },
+  "RagFusion": {
+    "name": "RagFusion_invoke"
+  },
   "groqApi": {
     "name": "Groq API",
+    "llama2-70b-4096": "LLaMA2 70b",
     "llama3-8b-8192": "Llama 3 8b",
     "llama3-70b-8192": "Llama 3 70b",
     "mixtral-8x7b-32768": "Mixtral 8x7b",

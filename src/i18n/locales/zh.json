@@ -130,7 +130,6 @@
     "claude-3-opus-20240229" : "claude-3-opus",
     "claude-3-sonnet-20240229": "claude-3-sonnet",
     "claude-3-haiku-20240307": "claude-3-haiku",
-    "claude-3-5-sonnet-20240620": "claude-3.5-sonnet",
     "claude-21":"claude-2.1",
     "claude-20":"claude-2.0",
     "claude-instant-12":"claude-instant"
@@ -141,7 +140,6 @@
     "command-light": "Command Light",
     "command-r": "Command R",
     "command-r-plus": "Command R+",
-    "c4ai-aya-23": "Aya 23",
     "temperature": "Temperature",
     "temperaturePrompt": "调整模型的输出随机性设置范围为 0 至 5。较低的设置值能够确保输出结果的精确性和一致性，非常适合用于需要精确信息的任务，如撰写摘要。相反，较高的设置值则有助于激发创造性思维，但可能使内容在特定情境或简短回应中显得不够连贯。"
   },
@@ -303,6 +301,7 @@
   },
   "groqApi": {
     "name": "Groq API",
+    "llama2-70b-4096": "LLaMA2 70b",
     "llama3-8b-8192": "Llama 3 8b",
     "llama3-70b-8192": "Llama 3 70b",
     "mixtral-8x7b-32768": "Mixtral 8x7b",
